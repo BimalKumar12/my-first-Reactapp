@@ -8,7 +8,7 @@ const todos = [
 const TodoList = () => {
     return (
         <section style={{ marginBottom: "32px" }}>
-            <h2 style={{ marginBottom: "16px", borderBottom: "2px solid #d8d4d4ff", paddingBottom: "8px", backgroundColor:"#e3e3e7ff" }}>
+            <h2 style={{ marginBottom: "16px", borderBottom: "2px solid #d8d4d4ff", paddingBottom: "8px", backgroundColor:"#e3e3e7ff" ,borderRadius:"30px"}}>
                 Todo List
             </h2>
             <ul style={{ listStyle: "none", padding: 0, display: "flex", flexDirection: "column", gap: "8px" }}>

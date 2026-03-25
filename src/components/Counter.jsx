@@ -18,7 +18,7 @@ const Counter = () => {
 
     return (
         <section style={{ marginBottom: "32px" }}>
-            <h2 style={{ marginBottom: "16px", borderBottom: "2px solid #d8d4d4ff", paddingBottom: "8px", backgroundColor:"#e3e3e7ff"}}>
+            <h2 style={{ marginBottom: "16px", borderBottom: "2px solid #d8d4d4ff", paddingBottom: "8px", backgroundColor:"#e3e3e7ff", borderRadius:"30px"}}>
                 Counter App
             </h2>
             <p style={{ fontSize: "2.5rem", fontWeight: "600", marginBottom: "16px" }}>{count}</p>

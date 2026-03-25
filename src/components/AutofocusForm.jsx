@@ -20,7 +20,7 @@ const AutoFocusForm = () => {
 
     return (
         <section style={{ marginBottom: "32px" }}>
-            <h2 style={{ marginBottom: "16px", borderBottom: "2px solid #d8d4d4ff", paddingBottom: "8px" , backgroundColor:"#e3e3e7ff"}}>
+            <h2 style={{ marginBottom: "16px", borderBottom: "2px solid #d8d4d4ff", paddingBottom: "8px" , backgroundColor:"#e3e3e7ff", borderRadius:"30px"}}>
                 Registration Form
             </h2>
             <input ref={firstInputRef} type="text" placeholder="Name" style={inputStyle} />

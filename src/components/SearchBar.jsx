@@ -5,7 +5,7 @@ const SearchBar = () => {
 
     return (
         <section style={{ marginBottom: "32px" }}>
-            <h2 style={{ marginBottom: "16px", borderBottom: "2px solid #d8d4d4ff", paddingBottom: "8px", backgroundColor:"#e3e3e7ff" }}>
+            <h2 style={{ marginBottom: "16px", borderBottom: "2px solid #d8d4d4ff", paddingBottom: "8px", backgroundColor:"#e3e3e7ff" , borderRadius:"30px"}}>
                 Search Bar
             </h2>
             <input

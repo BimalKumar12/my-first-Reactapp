@@ -1,6 +1,6 @@
 const UserProfile = ({ username, age, isAdmin = false }) => {
     return (
-        <div style={{ border: "1px solid #ddd", borderRadius: "8px", padding: "16px", minWidth: "150px" }}>
+        <div style={{ border: "1px solid #dbd8d8ff", borderRadius: "10px", padding: "16px", minWidth: "150px" }}>
             <h3 style={{ marginBottom: "6px" }}>{username}</h3>
             <p style={{ color: "#666", fontSize: "0.875rem" }}>Age: {age}</p>
             <span style={{
