@@ -1,0 +1,56 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    transition: opacity 0.5s ease;
+}
+
+.card {
+    width: 340px;
+    background: #2c2c2c;
+    /* dark card */
+    padding: 1.5rem;
+    border-radius: 16px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.6);
+    border-left: 5px solid #8b5cf6;
+    animation: fadeIn 0.5s ease-in-out;
+    color: #eee;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #8b5cf6;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.6rem 0;
+    border-bottom: 1px solid #444;
+    font-size: 15px;
+}
+
+.row span {
+    color: #ccc;
+}
+
+.row strong {
+    color: #fff;
+}
+
+.row:last-child {
+    border-bottom: none;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
