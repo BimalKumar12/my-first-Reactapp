@@ -7,7 +7,7 @@ function App() {
   const [feedbacks, setFeedbacks] = useState([]);
 
   const addFeedback = (data) => {
-    setFeedbacks((prev) => [...prev, data]);
+    setFeedbacks([data]); // replace old data with new one
   };
 
   return (
