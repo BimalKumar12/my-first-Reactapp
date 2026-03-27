@@ -14,8 +14,6 @@ export default function Page() {
 
   return (
     <div className="min-h-screen bg-slate-900 text-white flex flex-col items-center justify-center p-6">
-      
-      {/* 🔥 UPDATED HEADING */}
       <h1 className="text-4xl font-bold mb-8 text-indigo-400">
         Employee Feedback Form
       </h1>
