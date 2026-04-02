@@ -181,9 +181,9 @@ export function PortalTopNav({ isSidebarCollapsed, onToggleSidebar, onLogout }) 
             aria-expanded={isProfileMenuOpen}
           >
             <div className="portal-profile__avatar" aria-hidden="true">
-              I
+              TU
             </div>
-            <span>IDBI INTERNAL</span>
+            <span>Test User</span>
             <span className="portal-profile__chevron" aria-hidden="true">
               <ChevronDownIcon />
             </span>
